@@ -20,11 +20,4 @@ public class Practice1{
         System.out.println("SALARY: "+ salary);
 
     }
-
-
-
-
-
-
-
 }

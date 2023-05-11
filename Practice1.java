@@ -54,8 +54,6 @@ function reverseString(s) {
     }
 }
 
-
-
 'use strict';
 
 process.stdin.resume();
@@ -96,8 +94,6 @@ function isPositive(a) {
         return "YES";
     }
 }
-
-
 
 function main() {
     const n = +(readLine());
@@ -149,9 +145,6 @@ function Rectangle(a, b) {
         area: a * b
     };
 }
-
-
-
 
 function main() {
     const a = +(readLine());

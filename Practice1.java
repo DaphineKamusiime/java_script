@@ -183,8 +183,6 @@ class Square extends Rectangle {
 }
 
 // locked code below
-
-
 if (JSON.stringify(Object.getOwnPropertyNames(Square.prototype)) === JSON.stringify([ 'constructor' ])) {
     const rec = new Rectangle(3, 4);
     const sqr = new Square(3);
@@ -195,7 +193,6 @@ if (JSON.stringify(Object.getOwnPropertyNames(Square.prototype)) === JSON.string
     console.log(-1);
     console.log(-1);
 }
-
 'use strict';
 
 process.stdin.resume();
@@ -219,7 +216,6 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
-
 /*
  * Return a count of the total number of objects 'o' satisfying o.x == o.y.
  * 
